@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 # By @Brunus_V
+# version : alpha 1
 # Licence :  WTFPL
-# Version : alpha 1
 # http://www.wtfpl.net/
 # This script is an assembly and correction of several scripts from different sources that are not anymore up to date or just usuable
 
@@ -61,4 +61,6 @@ class ColumnExtension(Nautilus.ColumnProvider, Nautilus.InfoProvider, GObject.GO
 			file.add_string_attribute('pixeldimensions', '')
 
 		self.get_columns() 
+	
+
 	
